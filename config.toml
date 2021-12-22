@@ -1,4 +1,4 @@
-baseURL = "localhost:1313"
+baseURL = "https://61c37a1cdcb3897d97c98e56--infallible-albattani-4422da.netlify.app"
 languageCode = "en-us"
 title = "Cactus theme example"
 copyright = "You" # cactus will use title if copyright is not set
