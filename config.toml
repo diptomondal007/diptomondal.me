@@ -1,4 +1,4 @@
-baseURL = "www.diptomondal.me"
+baseURL = "http://www.diptomondal.me"
 languageCode = "en-us"
 title = "Dipto Mondal"
 copyright = "Dipto" # cactus will use title if copyright is not set
