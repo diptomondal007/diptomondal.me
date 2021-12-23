@@ -1,8 +1,8 @@
 baseURL = "https://infallible-albattani-4422da.netlify.app"
 languageCode = "en-us"
-title = "Cactus theme example"
-copyright = "You" # cactus will use title if copyright is not set
-disqusShortname = "example" # Used when comments is enabled. Cactus will use site title if not set
+title = "Dipto Mondal"
+copyright = "Dipto" # cactus will use title if copyright is not set
+disqusShortname = "dipto" # Used when comments is enabled. Cactus will use site title if not set
 # googleAnalytics = "UA-1234-5"
 
 
@@ -50,15 +50,15 @@ weight = 4
   colortheme = "white" # dark, light, white, or classic
   rss = true # generate rss feed. default value is false
   googleAnalyticsAsync = true # use asynchronous tracking. Synchronous tracking by default
-  showAllPostsArchive = false # default
+  showAllPostsArchive = true # default
 
   # Home page settings
-  description = "Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content. Since websites are viewed far more often than they are edited, Hugo is designed to provide an optimal viewing experience for your website’s end users and an ideal writing experience for website authors."
+  description = "Passionate Software Engineer I, having a deep insight into various technologies of programming. Love to solve algorithmic problems and make things work better than expected. Also, having a love for learning new things and making use of them. Have interest in building scalable software applications. Always looking for exciting opportunities to hone my skills and grow as a developer. In my two years in this industry, I've honed my analytical thinking and collaboration skills, and I love working with a team."
   mainSection = "posts" # your main section
   showAllPostsOnHomePage = false # default
   postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
   tagsOverview = true # show tags overview by default.
-  showProjectsList = true # show projects list by default (if projects data file exists).
+  showProjectsList = false # show projects list by default (if projects data file exists).
   projectsUrl = "https://github.com/gohugoio" # title link for projects list
 
   # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
@@ -76,7 +76,7 @@ weight = 4
       label = "hugo-site-name" # you can use however you want to label your name in your repo's issues
       theme = "github-light"
     [params.comments.cactuscomments]
-      siteName = "your_cactus_comments_sitename" # see https://cactus.chat/ on how to register your site name
+      siteName = "diptomondal.me" # see https://cactus.chat/ on how to register your site name
       #serverUrl = "" # Defaults to https://matrix.cactus.chat:8448 (Cactus Chat public server)
       #serverName = "" # Defaults to cactus.chat
 
@@ -84,10 +84,10 @@ weight = 4
   # https://fontawesome.com/icons?d=gallery&s=brands
   [[params.social]]
     name = "github"
-    link = "https://github.com/gohugoio"
+    link = "https://github.com/diptomondal007"
   [[params.social]]
     name = "linkedin"
-    link = "https://www.linkedin.com/company/github/"
+    link = "https://www.linkedin.com/in/dipto-mondal-807003181"
   [[params.social]]
     name = "email"
-    link = "example@example.com"  # no need for "mailto:" in the head
+    link = "diptomondal007@gmail.com"  # no need for "mailto:" in the head
