@@ -29,6 +29,11 @@ name = "About"
 url = "/about"
 weight = 4
 
+[sitemap]
+  changefreq = 'monthly'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
 [markup]
   [markup.tableOfContents]
     endLevel = 4
