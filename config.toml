@@ -2,7 +2,7 @@ baseURL = "https://www.diptomondal.me"
 languageCode = "en-us"
 title = "Dipto Mondal"
 copyright = "Dipto" # cactus will use title if copyright is not set
-disqusShortname = "dipto" # Used when comments is enabled. Cactus will use site title if not set
+disqusShortname = "diptomondal-me" # Used when comments is enabled. Cactus will use site title if not set
 # googleAnalytics = "UA-1234-5"
 
 
@@ -75,7 +75,7 @@ weight = 4
 
   [params.comments]
     enabled = true # default
-    engine = "cactus_comments" # only disqus, utterances, and cactus_comments is supported
+    engine = "disqus" # only disqus, utterances, and cactus_comments is supported
     [params.comments.utterances]
       repo = "<github_username>/<github_reponame>"
       label = "hugo-site-name" # you can use however you want to label your name in your repo's issues
